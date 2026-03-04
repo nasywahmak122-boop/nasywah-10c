@@ -133,4 +133,44 @@ form button{
     }
 form button:hover{
     background-color: #2980bd;
-    }      
+    }
+
+.alamat, .formulir {
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fafafa;
+    border-radius: 10px;
+    box-shadow: 0 0 8px rgba(0,0,0,0.1);
+}
+form label {
+    display: block;
+    margin-top: 10px;
+}
+form input, 
+form textarea {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+}
+button {
+    margin-top: 15px;
+    padding: 10px 20px;
+    background-color: #2580db;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+button:hover {
+    background-color: #1a5fa5;
+}
+
+.event {
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 15px;
+    background-color: #fafafa;
+    border-radius: 10px;
+    box-shadow: 0 0 8px rgba(0,0,0,0.1);
+}
