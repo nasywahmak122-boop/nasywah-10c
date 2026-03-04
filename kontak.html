@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-
+scale=1.0">
+<title>Profil Usaha Buku</title>
+<link rel="stylesheet" href="style.css" />
+</head>
+<body>
+<nav>
+    <a href="index.html">Beranda</a>
+    <a href="produk.html">Produk</a> 
+    <a href="bedah-buku.html">Bedah Buku</a>
+    <a href="testimoni.html">Testimoni</a>
+    <a href="tampil-testimoni.html">Testimoni Pembeli</a>
+</nav>
+
+<h1>Hubungi kami</h1>
+<section class="alamat">
+        <h2>Alamat Toko</h2>
+        <p><strong>Nasywah Bookstore</strong></p>
+        <p>Jl.Ngalorngidul,Dsn.Sumberingin, Blitar</p>
+        <p>Email: nasywahmak122@gmail.com</p>
+        <p>WhatsApp: 0812-3456-7890</p>
+</section>
+<section class="formulir">
+        <h2>Form Kontak</h2>
+
+        <form id="formKontak">
+            <label for="nama">Nama:</label>
+            <input type="text" id="nama" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" required>
+
+            <label for="pesan">Pesan:</label>
+            <textarea id="pesan" rows="5" required></textarea>
+            
+            <button type="submit">Kirim Pesan</button>
+        </form>
+        <p id="hasil"></p>
+</section>
+<script>
+    document.getElementById('formKontak').addEventListener('submit', function(e) {
+            e.preventDefault();
+            document.getElementById('hasil').innerText = 
+                "Pesan berhasil dikirim!";
+        });
+</script>
+</body>
+</html>
