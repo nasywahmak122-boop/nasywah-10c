@@ -11,7 +11,7 @@ h1 {
 }
 
 h2 {
-  color: gold;
+  color: tomato;
   text-align: left;
 }
 
@@ -174,3 +174,4 @@ button:hover {
     border-radius: 10px;
     box-shadow: 0 0 8px rgba(0,0,0,0.1);
 }
+
