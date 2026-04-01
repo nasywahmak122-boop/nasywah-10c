@@ -90,17 +90,22 @@ p {
     }
 .btn-kembali {
     display: inline-block;
-    margin-top: 30px;
-    padding: 10px 16px; 
-    background-color: #1fe4d3;
-    color: white;
+    padding: 10px 18px;
+    background-color: transparent;
+    color: #800000;
+    border: 2px solid #800000;
+    border-radius: 8px;
     text-decoration: none;
-    border-radius: 4px;
+    font-weight: bold;
+    transition: 0.3s;
+    cursor: pointer;
     }
+/* Hover effect */
 .btn-kembali:hover {
-    background-color: #1fe4d3;
-    }            
-
+    background-color: #800000;
+    color: white;
+    transform: translateX(-5px);
+    }
 
 .formulir{
     max-width: 600px;
