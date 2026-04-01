@@ -206,3 +206,28 @@ button:hover {
 .menu a:hover::after {
     width: 100%;
 }
+
+.form-kontak {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+
+.form-kontak input,
+.form-kontak textarea {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+.form-kontak button {
+    background-color: #800000;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+}
