@@ -173,29 +173,18 @@ button:hover {
 }
 
 .navbar {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
     background-color: #800000;
-    padding: 15px 25px;
-    box-shadow: 0 4px 10px rgba(0,0,0,0.2);
-    position: sticky;
-    top: 0;
-    z-index: 1000;
-}
-
-.logo {
-    color: white;
-    font-size: 20px;
-    font-weight: bold;
+    padding: 12px 0;
+    text-align: center;
 }
 
 .menu a {
     color: white;
     text-decoration: none;
-    margin-left: 20px;
-    position: relative;
+    margin: 0 15px;
     font-weight: 500;
+    position: relative;
+    transition: 0.3s;
 }
 
 .menu a::after {
@@ -203,10 +192,15 @@ button:hover {
     position: absolute;
     left: 0;
     bottom: -5px;
-    width: 0%;
+    width: 0;
     height: 2px;
-    background-color: #ffd700; /* gold elegan */
+    background-color: #ffd700;
     transition: 0.3s;
+}
+
+/* hover */
+.menu a:hover {
+    color: #ffd700;
 }
 
 .menu a:hover::after {
