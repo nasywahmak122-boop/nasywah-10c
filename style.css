@@ -6,10 +6,18 @@ body {
 }
 
 h1 {
-  color: rgb(37, 128, 219);
-  text-align: center;
+    color: #800000; /* maroon */
 }
 
+h1 {
+    color: #800000;
+    border-bottom: 3px solid #ffd700;
+    display: inline-block;
+}
+
+h2 {
+    color: #a52a2a; /* maroon lebih soft */
+}
 h2 {
   color: tomato;
   text-align: left;
